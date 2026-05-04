@@ -10,7 +10,7 @@ Requires Python 3.13 and [uv](https://docs.astral.sh/uv/).
 git clone https://github.com/VoteVeto2/consulting-project.git
 cd consulting-project
 uv sync
-uv run jupyter notebook customer_profiling_solution.ipynb
+uv run jupyter notebook notebook/customer_profiling_v4.ipynb
 ```
 
 Run all cells top-to-bottom. The notebook covers data audit, dataset compatibility checks, EDA, three candidate models (interpretable GLM, gradient boosting, credibility risk cells), combined pure-premium evaluation, and portfolio segmentation with renewal-action recommendations.

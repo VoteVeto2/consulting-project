@@ -43,3 +43,7 @@ uv run python _build_notebook.py   # regenerate notebook from source
 - Candidate A: Freq AUC=0.694, Sev MAE=632, Cell Spearman=0.870
 - Candidate B: Freq AUC=0.691, Sev MAE=633, Cell Spearman=0.873
 - Interpretable model (A) nearly matches boosting (B) — A is the primary recommendation.
+
+## Conventions
+
+- New files must use hyphens (`-`) as word separators, not underscores (`_`).
